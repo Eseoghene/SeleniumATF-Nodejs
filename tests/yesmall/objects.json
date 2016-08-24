@@ -1,0 +1,158 @@
+{
+  "home":{
+    "pageTitle":"Online Shopping | Phones, Fashion, Electronics "
+  },
+
+  "login":{
+    "label":"Sign In Link",
+    "type":"css",
+    "css":"Sign In",
+    "pageTitle":"Login - testing",
+    "url":"https://www.testing.ng/login",
+    "email":"ese.mentie@gmail.com",
+    "password":"PASS123",
+    "invalidmsgxpath":"(//ul[@class=\"messages\"])[1]/li/ul/li/span",
+    "invalidPassword":"dhfgjfhjf",
+    "emailboxid":"email-field",
+    "passwordboxid":"password-field",
+    "loginBtnid":"button.btn-yellow",
+    "loginBtnlabel":"Log In Button",
+    "emailboxlabel":"Email address Box",
+    "passwordboxlabel":"Password Box"
+
+
+
+  },
+  "type":{
+    "css":"css",
+    "id":"id",
+    "xpath":"xpath",
+    "class":"class",
+    "name":"name"
+
+  },
+  "myacct":{
+  "cssAcctLink":"//*[@id=\"ng-app\"]/body/div/div/header/div/div[1]/div/ul/li[6]/a",
+  "acctLinkText":" Hello Eseoghene  ",
+  "acctId":"//*[@id=\"ng-app\"]/body/div/div/header/div/div[1]/div/ul/li[6]/a",
+  "logoutLinkText":"Logout",
+  "OrdersHistory":"My Orders History",
+  "myAcctxpath":"//*[@id=\"user-links\"]/a",
+  "logoutxpath":"//*[@id=\"user-links\"]/div/ul/li[6]/a",
+  "logoxpath":"//*[@id=\"login_page_wrapper\"]/div[1]/a/img"
+},
+
+  "search":{
+    "searchBoxname":"//*[@id=\"topFlyout\"]/div/div/div[2]/div/form/div/input",
+    "searchText":"Gift Box",
+    "csssubmitBtn":"div.input-group-btn",
+    "xpathoptionhighlabel":"High to Low",
+    "xpathoptionlowlabel":"Low to High",
+    "xpathoptionrellabel":"Relevance",
+    "xpathoptionrel":"//*[@id=\"main-content-container\"]/div[4]/div/div[1]/ul/li[2]/span",
+    "xpathoptionhigh":"//*[@id=\"main-content-container\"]/div[4]/div/div[1]/ul/li[3]/span",
+    "xpathoptionlow":"//*[@id=\"main-content-container\"]/div[4]/div/div[1]/ul/li[4]/span"
+  },
+
+  "firstprod":{
+  "cssSelector":"/html/body/div[5]/div[2]/div/div[2]/ul/li[1]",
+  "xpathBuyNow":"(//div[@class=\"actions-hover\"])[1]/button",
+  "xpathprodname":"(//*[@class=\"product-name truncate\"])[1]/a/span",
+  "xpathDetail":"(//div[@class=\"actions-hover\"])[1]/a/button/span/span",
+  "xpathurl":"(//li[1]/div/div[2][@class=\"mobile-box\"])[1]/p/a",
+  "xpathprodimg2":"(//li[1]/div/div[@class=\"product-image-wrap\"])[1]/a/img",
+  "xpathprodimg":"//*[@id=\"main-content-container\"]/div[4]/div/ul/li[1]/div/a/img"
+},
+  "product":{
+    "url":"https://www.testing.ng/product/2468",
+    "buynowbtn":"button.add-to-cart",
+    "addtocart":"//*[@id=\"ng-app\"]/body/div[1]/div/div[4]/div/div[2]/section/div[1]/div[2]/div/div[1]/button",
+    "popup":"atca-popup-container",
+    "popupmsg":"//*[@id=\"atca-popup-content\"]",
+    "popupmsgxpath":"//*[@id=\"atca-popup-content\"]/center/b[1]",
+    "checkout":"//*[@id=\"atca-redirect-btn\"]/span/span",
+    "goback":"//*[@id=\"atca-continue-btn\"]/span/span",
+    "xpathprodprice":"//*[@id=\"product-price-1016515\"]/span",
+    "xpathprodname":"//*[@id=\"search-high\"]/p/a",
+
+    "pricecss":".price"
+  },
+
+
+  "prodpage":{
+    "xpathprodname":"//*[@class=\"product-name\"]",
+    "xpathprodimg":"//*[@class=\"carousel-image\"]/img",
+    "xpathbrandname":"//span/span/a"
+
+  },
+  "cart":{
+  "pageTitle":"Shopping Cart | testing Nigeria",
+  "xpath":"//*[@id='header']/div[2]/div[2]/div[2]/div/div[2]/div[2]/span/div[1]/div[1]/a/span[1]",
+  "removeitemxpath":"//*[@id=\"shopping-cart-table\"]/tbody/tr/td[6]/a",
+  "removeitemlabel":"Remove Item Icon",
+  "emptyCartxpath":"//*[@class=\"cart-empty-block-wr\"]/h1",
+  "cartTxt":"Cart 1",
+  "cssprodname":".product-name",
+  "xpathprodname":"//*[@id=\"shopping-cart-table\"]/tbody/tr/td[2]/h2",
+  "xpathprodname2":"//*[@id=\"shopping-cart-table\"]/tbody/tr[2]/td[2]/h2",
+  "emptyCartTxt":"Cart",
+  "cssremoveitem2":"//*[@id='header']/div[2]/div[2]/div[2]/div/div[2]/div[2]/span/div[1]/div[1]/div[1]/ol[1]/li[1]/div[1]/div[1]/a[1]",
+  "csslink":"a.headercart-toggle",
+  "xpathremoveitem":"//div[3]/header/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/ol/li/div/div/a",
+  "emptyxpath":"//*[@id='header']/div[2]/div[2]/div[2]/div/div[2]/div[2]/span/div[1]/a[1]/span[1]",
+  "cartxpath":"//*[@id=\"headercart\"]/a/span[2]",
+  "livemsgxpath":"(//div[@class=\"cart-empty-block-wr\"])/h1",
+  "xpathcontinue":"(//div[@class=\"container\"])[4]/div[2]/div[1]/div/p[2]/a",
+  "cartMsg":"Shopping Cart is Empty",
+  "checkoutbtn":"(//ul[@class=\"checkout-types\"])[2]/li[1]/button/span/span"
+},
+  "address":{
+    "xpathaddresstab":"//*[@id=\"co-billing-form\"]/div[1]/div[1]/h3/strong",
+    "xpathdelBtn":"//*[@id=\"co-billing-form\"]/div[1]/div[2]/label[1]/div/div[2]/p/input",
+    "label":"Select Delivery Address",
+    "BtnLabel":"Address Radio button",
+    "addressborder":"//*[@id=\"co-billing-form\"]/div[1]/div[2]/label[1]/div/div[1]",
+    "borderLabel":"Selected Address Marker"
+  },
+  "payment":{
+    "pageTitle":"Checkout | testing Nigeria",
+    "xpathpymttab":"//*[@id=\"checkout-payment-method-load\"]/dt[1]/h3",
+    "label":"Choose Payment Method",
+    "idPodBtn":"p_method_cashondelivery",
+    "podbtnlabel":"Pay On Delivery ",
+    "xpathPodBtn":"//*[@id=\"checkout-payment-method-load\"]/dt[4]/span",
+    "stagxpathPodBtn":"//*[@id=\"checkout-payment-method-load\"]/dt[5]/span",
+    "stagxpathPod":"//*[@id=\"checkout-payment-method-load\"]/dt[5]/input",
+    "xpathPod":"//*[@id=\"checkout-payment-method-load\"]/dt[4]/input",
+    "idAtmBtn":"p_method_interswitch",
+    "podlabel":"Pay On Delivery radio button",
+    "idpymtBtn":"//*[@id=\"confirm_payment\"]/span",
+    "PymtBtnlabel":"Confirm Payment Button",
+    "xpathsucessMsg":"(//div[@class=\"center\"])[2]",
+    "sucessMsg":"Thanks for your order!",
+    "sucessUrl":"/checkout/onepage/success/",
+    "xpathAtmBtn":"//*[@id='checkout-payment-method-load']/dt[3]/span",
+    "atmlabel":"Pay with ATM/Debit Card radio button",
+    "idreturnlink":"returnlink",
+    "returnlinklabel":"Return to merchant site",
+    "pymtBtnxpath":"//*[@id=\"confirm_payment\"]/span",
+    "stagsucessUrl":"http://staging.testing.com/checkout/onepage/success/",
+    "loadtestsuccessUrl": "https://loadtest.testing.com/checkout/onepage/success/",
+    "iswitchUrl":"https://webpay.interswitchng.com/paydirect/pay",
+    "webpayUrl":"https://stageserv.interswitchng.com/test_paydirect/pay",
+    "loadtestfailUrl":"https://loadtest.testing.com/checkout/onepage/failure/",
+    "stagfailUrl":"/checkout/onepage/failure/",
+    "xpathfailbreadcrumb":"//*[@id=\"breadcrumbs\"]/div/ul/li[2]",
+    "failbreadcrumb":"Error with payment",
+    "xpathfailmsg":"/html/body/div[6]/div[2]/div/div/div[2]/div/p[1]",
+    "failmsg":"SOMETHING WENT WRONG WITH YOUR PAYMENT",
+    "xpathfailmsg2":"/html/body/div[6]/div[2]/div/div/div[2]/div/p[4]",
+    "failmsg2":"Your items are still in your cart. To try again, click HERE",
+    "contlinktext":"HERE",
+    "contlinkmsg":"Continue Shopping LinkText",
+    "idfooter":"footer",
+    "footerlabel":"Page Footer",
+    "xpathfailureimg":"/html/body/div[6]/div[2]/div/div/div[2]/div/img",
+    "failureimglabel":"Failed Payment Image"
+  }
+}

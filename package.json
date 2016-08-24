@@ -1,0 +1,21 @@
+{
+	"name":"automate",
+	"version": "0.0.1",
+	"description": "Common libraries that are used in all test frameworks ",
+
+	"dependencies": {
+		"async": "~1.5.2",
+		"selenium-webdriver":"~2.53.1",
+		"q":"~1.4.1",
+		"optimist": "~0.6.0",
+		"requestify":"~0.1.17"
+	},
+	 "scripts": {
+			"test": "make test-all"
+	},
+  "bin": {
+	"automate": "automate.js"
+  },
+
+	"author": "Eseoghene Mentie<ese.mentie@gmail.com>"
+}
